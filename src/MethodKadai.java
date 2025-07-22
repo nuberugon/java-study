@@ -6,8 +6,9 @@ public class MethodKadai {
         // System.out.println(sum(1,4));
         //greet("なかた");
        //int result = doubleNumber(10,2);
-       //System.out.println(doubleNumber(10,2));
-        boolean result = isEven()
+       //System.out.println(doubleNumber(10));
+        // boolean result = isEven(3);
+        // System.out.println(result);
     }
 
 
@@ -28,9 +29,12 @@ public class MethodKadai {
     //public static void greet(String name) {
     //  System.out.println("こんにちは、" + name + "さん！");
     //}
-    //public static int doubleNumber (int x, int y) {
-    //    return x * y;
-      public static boolean isEven (int x, int y) {
-        return x % y;
-      }
+    //public static int doubleNumber(int x) {
+        //return x * 2;
+    //}
+      //public static boolean isEven (int x) {
+        //return x % 2 == 0;
+    //}
+       public static void repeatWord (String word, int count ) {
+       }
 }
